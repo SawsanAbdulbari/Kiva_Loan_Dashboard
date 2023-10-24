@@ -16,9 +16,9 @@ st.markdown('<style>div.block-container{padding-top:1rem;}</style>',
 
 st.title(":chart_with_upwards_trend: Exploratory Data Analysis")
 
-df = pd.read_csv(r"C:\Users\sawsa_v1iymt5\OneDrive\Documents\data_science\kiva_loan_project\Kiva_Cleaned_Data.csv")
-df1 = pd.read_csv(r'C:\Users\sawsa_v1iymt5\OneDrive\Documents\data_science\kiva_loan_project\Kiva_Loan.csv')
-df2 = pd.read_csv(r'C:\Users\sawsa_v1iymt5\OneDrive\Documents\data_science\kiva_loan_project\Cleaned.csv')
+df = pd.read_csv(r"C:\Users\sawsa_v1iymt5\Downloads\My-Github\Kiva_Loan_Dashboard\Kiva_Cleaned_Data.csv")
+df1 = pd.read_csv(r"C:\Users\sawsa_v1iymt5\Downloads\My-Github\Kiva_Loan_Dashboard\Kiva_Loan.csv")
+df2 = pd.read_csv(r"C:\Users\sawsa_v1iymt5\Downloads\My-Github\Kiva_Loan_Dashboard\Cleaned.csv")
 
 # Sidebar for additional information
 st.sidebar.title('Kiva Dashboard')

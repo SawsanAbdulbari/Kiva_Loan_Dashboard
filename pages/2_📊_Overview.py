@@ -15,9 +15,9 @@ st.title(":bar_chart: Overview Of Data")
 st.markdown('<style>div.block-container{padding-top:1rem;}</style>',
             unsafe_allow_html=True)
 
-df = pd.read_csv(r"C:\Users\sawsa_v1iymt5\OneDrive\Documents\data_science\kiva_loan_project\Kiva_Cleaned_Data.csv")
-df1 = pd.read_csv(r'C:\Users\sawsa_v1iymt5\OneDrive\Documents\data_science\kiva_loan_project\Kiva_Loan.csv')
-df2 = pd.read_csv(r'C:\Users\sawsa_v1iymt5\OneDrive\Documents\data_science\kiva_loan_project\Cleaned.csv')
+df = pd.read_csv(r"C:\Users\sawsa_v1iymt5\Downloads\My-Github\Kiva_Loan_Dashboard\Kiva_Cleaned_Data.csv")
+df1 = pd.read_csv(r"C:\Users\sawsa_v1iymt5\Downloads\My-Github\Kiva_Loan_Dashboard\Kiva_Loan.csv")
+df2 = pd.read_csv(r"C:\Users\sawsa_v1iymt5\Downloads\My-Github\Kiva_Loan_Dashboard\Cleaned.csv")
 
 # row a
 a1, a2, a3, a4 = st.columns(4)
