@@ -26,8 +26,8 @@ st.sidebar.title('Kiva Dashboard')
 image = "kuva.png"
 st.sidebar.image(image, caption='Image', use_column_width=True)
 =======
-image = Image.open(r"C:\Users\sawsa_v1iymt5\Downloads\My-Github\Kiva_Loan_Dashboard\kuva.png")
-st.sidebar.image(image)
+image ="kuva.png"
+st.sidebar.image(image, caption='Image', use_column_width=True)
 >>>>>>> fb8056f97c026462ee014060033206eb0294e461
 st.sidebar.write("This dashboard is using Kiva dataset from Kaggle for Python Data Analysis Diploma.")
 st.sidebar.write("")
