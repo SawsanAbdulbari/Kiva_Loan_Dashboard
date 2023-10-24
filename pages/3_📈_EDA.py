@@ -22,8 +22,8 @@ df2 = pd.read_csv(r'C:\Users\sawsa_v1iymt5\OneDrive\Documents\data_science\kiva_
 
 # Sidebar for additional information
 st.sidebar.title('Kiva Dashboard')
-image = Image.open(r"C:\Users\sawsa_v1iymt5\OneDrive\Documents\data_science\kiva_loan_project\kuva.png")
-st.sidebar.image(image)
+image = "kuva.png"
+st.sidebar.image(image, caption='Image', use_column_width=True)
 st.sidebar.write("This dashboard is using Kiva dataset from Kaggle for Python Data Analysis Diploma.")
 st.sidebar.write("")
 
