@@ -64,7 +64,7 @@ with st.expander("View Data"):
 @st.cache_data
 
 def load_data():
-    df = pd.read_csv("kiva_cleaned_data.csv")
+    df = pd.read_csv("Kiva_Cleaned_Data.csv")
 
     return df
 
