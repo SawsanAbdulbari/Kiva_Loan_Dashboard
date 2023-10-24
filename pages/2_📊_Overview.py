@@ -102,8 +102,9 @@ with col1:
     sector_loan = (filtered_df.groupby(by = ['sector'], as_index= False)['funded_amount'].sum()).round(2)
 
 # Create a bar plot using Plotly Express
+    st.subheader("Sectors in Terms of Funded Loan Amount")
     fig = px.bar(sector_loan, x='sector', y='funded_amount',
-             title='Sectors in Terms of Funded Loan Amount',
+            #  title='Sectors in Terms of Funded Loan Amount',
              labels={'sector': 'Loan Sector', 'funded_amount': 'Total Funded Loan Amount'},
              text=['${:,.2f}'.format(x) for x in sector_loan['funded_amount']],
              template="seaborn",color='sector' )
