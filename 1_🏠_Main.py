@@ -31,7 +31,7 @@ st.sidebar.write("")
 
 # Signature
 st.sidebar.write("")
-st.sidebar.markdown("Made with :green_heart: by Eng. [Sawsan Abdulbari](https://www.linkedin.com/in/sawsan-abdulbari-5a4533104)")
+st.sidebar.markdown("Made with :green_heart: by Eng. [Linda Marin](https://www.linkedin.com/in/lindamarin97/) & [Sawsan Abdulbari](https://www.linkedin.com/in/sawsanabdulbari/)")
 
 
             
@@ -69,7 +69,6 @@ In this dashboard, we have presented key insights from the Kiva loan data analys
 
 **Acknowledgment:**
 
-A lot of gratitude to :green[Eng. Mostafa Othman] For guidance through out the project. 
 We extend our gratitude to Kiva and the community for their valuable contributions, furthering the cause of poverty alleviation through microloans.
 ''', unsafe_allow_html=True)
 
